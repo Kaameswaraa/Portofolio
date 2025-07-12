@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fatich Zaky Nurradany | Portofolio</title>
+  <style>
+    :root {
+      --primary: #1f2937;
+      --accent: #2563eb;
+      --bg: #f9fafb;
+      --card-bg: #ffffff;
+      --text: #111827;
+      --muted: #6b7280;
+      --radius: 12px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary);
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      color: var(--muted);
+      font-size: 1.1rem;
+    }
+
+    section {
+      max-width: 960px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: var(--radius);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+    }
+
+    .card h2 {
+      color: var(--primary);
+      margin-bottom: 1rem;
+      border-left: 4px solid var(--accent);
+      padding-left: 0.75rem;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .skills span {
+      background: var(--accent);
+      color: white;
+      padding: 0.5rem 1.2rem;
+      border-radius: 999px;
+      margin: 0.4rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: var(--primary);
+      color: white;
+      font-size: 0.95rem;
+      margin-top: 3rem;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      header p {
+        font-size: 1rem;
+      }
+
+      .card {
+        padding: 1.5rem 1rem;
+      }
+
+      .skills {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .skills span {
+        width: fit-content;
+        padding: 0.5rem 1rem;
+      }
+
+      section {
+        padding: 0 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Fatich Zaky Nurradany</h1>
+  <p>Mahasiswa Teknik Industri - Institut Teknologi Nasional Bandung</p>
+</header>
+
+<section>
+  <div class="card">
+    <h2>Tentang Saya</h2>
+    <p>Saya adalah mahasiswa Teknik Industri dengan ketertarikan kuat pada dunia desain teknik, pemrograman, dan pengembangan sistem berbasis Internet of Things (IoT). Dengan latar belakang akademik yang mendukung dan pengalaman dalam berbagai perangkat lunak desain dan pemrograman, saya memiliki visi untuk mengintegrasikan teknologi digital dalam sistem industri agar lebih efisien, otomatis, dan adaptif terhadap perkembangan zaman.</p>
+    <p>Saya percaya bahwa kolaborasi antara teknik industri dan teknologi digital dapat mendorong efisiensi dan inovasi dalam berbagai sektor. Saya terus mengembangkan keterampilan saya dalam AutoCAD, SolidWorks, HTML, C++, dan Visual Studio Code, sambil mempelajari pendekatan baru dalam pemrograman dan otomasi industri.</p>
+  </div>
+
+  <div class="card">
+    <h2>Visi & Misi</h2>
+    <p><strong>Visi:</strong> Menjadi profesional industri yang mampu menghadirkan solusi berbasis teknologi digital dan IoT untuk meningkatkan efisiensi, produktivitas, dan keberlanjutan dalam sistem industri.</p>
+    <p><strong>Misi:</strong></p>
+    <ul>
+      <li>Mengintegrasikan konsep teknik industri dengan teknologi modern seperti IoT dan automasi.</li>
+      <li>Mengembangkan keterampilan praktis dan akademis secara berkelanjutan melalui proyek dan pembelajaran mandiri.</li>
+      <li>Berpartisipasi dalam proyek-proyek yang berdampak nyata pada pengembangan sistem produksi dan manufaktur cerdas.</li>
+      <li>Membangun kolaborasi dengan komunitas teknologi dan industri untuk menciptakan solusi inovatif dan aplikatif.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Keahlian</h2>
+    <div class="skills">
+      <span>AutoCAD (70%)</span>
+      <span>SolidWorks (70%)</span>
+      <span>VS Code (80%)</span>
+      <span>HTML (80%)</span>
+      <span>C++ (70%)</span>
+      <span>Microsoft Office (80%)</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Kontak</h2>
+    <p>📞 No. HP: <a href="tel:+6287864642985">0878-6464-2985</a></p>
+    <p>📸 Instagram: <a href="https://instagram.com/fatichzx" target="_blank">@fatichzx</a></p>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Fatich Zaky Nurradany | Portofolio Pribadi
+</footer>
+
+</body>
+</html>
